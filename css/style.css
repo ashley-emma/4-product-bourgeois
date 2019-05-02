@@ -6,7 +6,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.parallex-logo-2, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,8 +14,8 @@ body, html {
 }
 
 /* First image (Logo. Full height) */
-.bgimg-1 {
-    background-image: url('/w3images/parallax1.jpg');
+.parallex-logo-2 {
+    background-image: url('/img/parallex-logo-2.jpg');
     min-height: 100%;
 }
 
