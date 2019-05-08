@@ -72,3 +72,29 @@ body, html {
 .w3-hover-theme:hover {color:#000 !important; background-color:#f2a944 !important}
 .w3-hover-text-theme:hover {color:#f2a944 !important}
 .w3-hover-border-theme:hover {border-color:#f2a944 !important}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
