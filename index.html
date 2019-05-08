@@ -172,8 +172,6 @@
 
             </div>
 
-            <button class="w3-button w3-padding-large w3-pale-yellow" style="margin-top:64px">Start your Adventure</button>
-
         </div>
 
 
@@ -236,21 +234,10 @@
                 captionText.innerHTML = element.alt;
             } 
 
-            // Products Tab Bar
-            function openCity(evt, cityName) {
-                var i, x, tablinks;
-                x = document.getElementsByClassName("city");
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                tablinks = document.getElementsByClassName("tablink");
-                for (i = 0; i < x.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace(" w3-red", ""); 
-                }
-                document.getElementById(cityName).style.display = "block";
-                evt.currentTarget.className += " w3-red";
-            }
+           
         </script>
+        
+        <script src="js/tabs.js"></script>
 
     </body>
 </html>
