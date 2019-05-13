@@ -27,6 +27,12 @@ body, html {
     min-height: 400px;
 }
 
+/*Image in Products header */
+.slideshow4 {
+    background-image: url("/img/slideshow4.jpg");
+    min-height: 400px;
+}
+
 /* Third image (Contact) */
 .bgimg-3 {
     background-image: url("/w3images/parallax3.jpg");
