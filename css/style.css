@@ -8,7 +8,7 @@ body, html {
 
 
 /* Create a Parallax Effect */
-.parallex-logo-2, .slideshow3, .bgimg-3 {
+.parallex-logo-2, .slideshow3, .adventure {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,8 +28,8 @@ body, html {
 }
 
 /* Third image (Contact) */
-.bgimg-3 {
-    background-image: url("/w3images/parallax3.jpg");
+.adventure {
+    background-image: url("/img/adventure.jpg");
     min-height: 400px;
 }
 
