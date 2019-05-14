@@ -8,7 +8,11 @@ body, html {
 
 
 /* Create a Parallax Effect */
+<<<<<<< HEAD
 .boat, .boat, .snow, .dog {
+=======
+.parallex-logo-2, .slideshow3, .adventure, .slideshow4 {
+>>>>>>> parent of caebb8c... Update style.css
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,25 +20,25 @@ body, html {
 }
 
 /* First image (Logo. Full height) */
-.boat {
-    background-image: url('/img/boat.jpg');
+.parallex-logo-2 {
+    background-image: url('/img/parallex-logo-2.jpg');
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
-.boat {
-    background-image: url("/img/boat.jpg");
+.slideshow3 {
+    background-image: url("/img/slideshow3.jpg");
     min-height: 400px;
 }
 
 /*Image in Products header */
-.snow {
-    background-image: url("/img/snow.jpg");
+.slideshow4 {
+    background-image: url("/img/slideshow4.jpg");
     min-height: 400px;
 
 /* Third image (Contact) */
-.dog {
-    background-image: url("/img/dog.jpg");
+.adventure {
+    background-image: url("/img/adventure.jpg");
     min-height: 400px;
 }
 
