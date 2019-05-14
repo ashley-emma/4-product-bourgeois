@@ -15,24 +15,24 @@ body, html {
     background-size: cover;
 }
 
-/* First image (Logo. Full height) */
+/* First image (Not Using) */
 .boat {
     background-image: url('/img/boat.jpg');
     min-height: 100%;
 }
 
-/* Second image (Portfolio) */
+/* Second image (Gallery) */
 .boat {
     background-image: url("/img/boat.jpg");
     min-height: 400px;
 }
 
-/*Image in Products header */
+/* Third Image (Products) */
 .snow {
     background-image: url("/img/snow.jpg");
     min-height: 400px;
 
-/* Third image (Contact) */
+/* Forth image (Contact) */
 .dog {
     background-image: url("/img/dog.jpg");
     min-height: 400px;
