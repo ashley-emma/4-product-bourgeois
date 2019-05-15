@@ -134,35 +134,35 @@
             </div>
         </div>
 
-            <!-- Modal for full size images on click-->
-            <div id="modal01" class="w3-modal w3-white" onclick="this.style.display='none'">
-                <span class="w3-button w3-large w3-white w3-display-center" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-                <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-                    <img id="img01" class="w3-image">
-                    <p id="caption" class="w3-opacity w3-large"></p>
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-white" onclick="this.style.display='none'">
+            <span class="w3-button w3-large w3-white w3-display-center" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption" class="w3-opacity w3-large"></p>
 
-                </div>
             </div>
+        </div>
 
 
-            <!-- Modal for full size images on click-->
-            <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-                <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-                <div class="w3-modal-content w3-animate-zoom w3-topright w3-transparent w3-padding-64">
-                    <img id="img01" class="w3-image">
-                    <p id="caption" class="w3-opacity w3-large"></p>
-                </div>
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+            <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+            <div class="w3-modal-content w3-animate-zoom w3-topright w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption" class="w3-opacity w3-large"></p>
             </div>
+        </div>
 
-            <!-- Modal for full size images on click-->
-            <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-                <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-                <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-                    <img id="img01" class="w3-image">
-                    <p id="caption" class="w3-opacity w3-large"></p>
-                </div>
+        <!-- Modal for full size images on click-->
+        <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+            <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+            <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+                <img id="img01" class="w3-image">
+                <p id="caption" class="w3-opacity w3-large"></p>
             </div>
-           
+        </div>
+
         <!-- Products Section -->
         <div>
             <!-- Products Parallax Image -->
@@ -172,16 +172,45 @@
                 </div>
             </div>
 
-                    <!-- Content -->
-                    <div class="w3-content w3-container w3-padding-64" id="products">
-                        <h3 class="w3-center">PRODUCTS</h3>
-                        <p class="w3-center"><em>I'd love your feedback!</em></p>
-                    </div>
-                
-                    <button class="w3-button w3-padding-large w3-pale-yellow" style="margin-top:30px"><a href="https://ruffwear.com/" target="_blank">Start your Adventure</a></button>
+            <!-- Content -->
+            <div class="w3-content w3-container w3-padding-64" id="products">
+                <h3 class="w3-center">PRODUCTS</h3>
             </div>
-        
-        
+
+            <!-- Tabs (Product Features) -->
+            <div class="w3-container">
+                <h2>Product Features</h2>
+
+                <div class="w3-row">
+                    <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+                        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Track Jacket</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+                        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Float Coat</div>
+                    </a>
+                    <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+                        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Grip Trex Boots</div>
+                    </a>
+                </div>
+
+                <div id="London" class="w3-container city" style="display:none">
+                    <h2>London</h2>
+                    <p>London is the capital city of England.</p>
+                </div>
+
+                <div id="Paris" class="w3-container city" style="display:none">
+                    <h2>Paris</h2>
+                    <p>Paris is the capital of France.</p> 
+                </div>
+
+                <div id="Tokyo" class="w3-container city" style="display:none">
+                    <h2>Tokyo</h2>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+            </div>
+
+            <button class="w3-button w3-padding-large w3-pale-yellow" style="margin-top:30px"><a href="https://ruffwear.com/" target="_blank">Start your Adventure</a></button>
+        </div>
 
         <!-- Contact Section -->
         <div>
@@ -262,6 +291,8 @@
                 }
             } 
         </script>
+        
+        <script src="js/tab.js"></script>
 
     </body>
 
