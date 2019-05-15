@@ -172,56 +172,44 @@
                 </div>
             </div>
 
-<<<<<<< HEAD
             <!-- Content -->
             <div class="w3-content w3-container w3-padding-64" id="products">
                 <h3 class="w3-center">PRODUCTS</h3>
-=======
-                    <!-- Content -->
-                    <div class="w3-content w3-container w3-padding-64" id="products">
-                        <h3 class="w3-center">PRODUCTS</h3>
-                        <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+                <!-- Tabs (Product Features) -->
+                <div class="w3-container">
+                    <h2>Product Features</h2>
+
+                    <div class="w3-row">
+                        <a href="javascript:void(0)" onclick="openCity(event, 'London');">
+                            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Track Jacket</div>
+                        </a>
+                        <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+                            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Float Coat</div>
+                        </a>
+                        <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+                            <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Grip Trex Boots</div>
+                        </a>
                     </div>
-                
-            
-            
-                    <button class="w3-button w3-padding-large w3-pale-yellow" style="margin-top:30px"><a href="https://ruffwear.com/" target="_blank">Start your Adventure</a></button>
->>>>>>> d40ed78d689027c7d5067b1024ac6b2d8794e58a
+
+                    <div id="London" class="w3-container city" style="display:none">
+                        <h2>London</h2>
+                        <p>London is the capital city of England.</p>
+                    </div>
+
+                    <div id="Paris" class="w3-container city" style="display:none">
+                        <h2>Paris</h2>
+                        <p>Paris is the capital of France.</p> 
+                    </div>
+
+                    <div id="Tokyo" class="w3-container city" style="display:none">
+                        <h2>Tokyo</h2>
+                        <p>Tokyo is the capital of Japan.</p>
+                    </div>
+                </div>
+
+                <button class="w3-button w3-padding-large w3-pale-yellow" style="margin-top:30px"><a href="https://ruffwear.com/" target="_blank">Start your Adventure</a></button>
             </div>
-
-            <!-- Tabs (Product Features) -->
-            <div class="w3-container">
-                <h2>Product Features</h2>
-
-                <div class="w3-row">
-                    <a href="javascript:void(0)" onclick="openCity(event, 'London');">
-                        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Track Jacket</div>
-                    </a>
-                    <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
-                        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Float Coat</div>
-                    </a>
-                    <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
-                        <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Grip Trex Boots</div>
-                    </a>
-                </div>
-
-                <div id="London" class="w3-container city" style="display:none">
-                    <h2>London</h2>
-                    <p>London is the capital city of England.</p>
-                </div>
-
-                <div id="Paris" class="w3-container city" style="display:none">
-                    <h2>Paris</h2>
-                    <p>Paris is the capital of France.</p> 
-                </div>
-
-                <div id="Tokyo" class="w3-container city" style="display:none">
-                    <h2>Tokyo</h2>
-                    <p>Tokyo is the capital of Japan.</p>
-                </div>
-            </div>
-
-            <button class="w3-button w3-padding-large w3-pale-yellow" style="margin-top:30px"><a href="https://ruffwear.com/" target="_blank">Start your Adventure</a></button>
         </div>
 
         <!-- Contact Section -->
@@ -304,7 +292,7 @@
                 }
             } 
         </script>
-        
+
         <script src="js/tab.js"></script>
 
     </body>
