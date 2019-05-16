@@ -58,9 +58,11 @@ body, html {
     color: #fff!important;
     background-color: #0a263e!important;
     
-    
 }
 
+.w3-button {
+    color: #0a263e !important;
+}
 
 /* Orange Color Theme */
 .w3-theme-l5 {color:#000 !important; background-color:#fefaf4 !important}
@@ -97,4 +99,8 @@ body, html {
     bottom: 0;
     width: 100%; 
     height: 100%;
+}
+
+.w3-blue {
+    text-decoration-color: rgb(10,38,62);
 }
